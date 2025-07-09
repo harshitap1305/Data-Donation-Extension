@@ -2,6 +2,13 @@
 
 This is a working prototype of an open-source browser extension designed to enable voluntary, privacy-respecting donation of anonymized YouTube interaction data for research purposes. This is a **prototype** and is not intended for production use or handling sensitive data. It demonstrates core functionality for research purposes only.
 
+
+
+<img src="https://github.com/user-attachments/assets/f6e44bef-a5b3-4539-95b9-dcf8181700e4" width="300"/>
+<img src="https://github.com/user-attachments/assets/ae1839c8-6a6d-4ede-a8b9-ed9303ee3021" width="300"/>
+<img src="https://github.com/user-attachments/assets/a575dd35-f52e-40ad-8210-1a7e3c4246b7" width="300"/>
+
+
 ## Features
 
 * **Consent Management:** Presents a clear consent screen before data collection begins.
