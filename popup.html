@@ -1,0 +1,199 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Data Donor</title>
+    <!-- Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for the popup */
+        body {
+            width: 400px; /* Wider popup for better dashboard layout */
+            font-family: 'Inter', sans-serif;
+            background-color: #1a1a1a; /* Dark background */
+            color: #e0e0e0; /* Light text */
+            padding: 1rem;
+        }
+        .card {
+            background-color: #2a2a2a;
+            border-radius: 0.75rem; /* Rounded corners */
+            padding: 1rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .header-text {
+            color: #6ee7b7; /* Light green for emphasis */
+        }
+        .btn-primary {
+            background-color: #06b6d4; /* Teal */
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            transition: background-color 0.2s ease-in-out;
+            width: 100%;
+            text-align: center;
+        }
+        .btn-primary:hover {
+            background-color: #0e7490; /* Darker teal on hover */
+        }
+        .btn-secondary {
+            background-color: #4b5563; /* Gray */
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            font-weight: 500;
+            transition: background-color 0.2s ease-in-out;
+        }
+        .btn-secondary:hover {
+            background-color: #6b7280; /* Darker gray on hover */
+        }
+        input[type="checkbox"] {
+            appearance: none;
+            -webkit-appearance: none;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #6ee7b7; /* Light green border */
+            border-radius: 0.25rem;
+            position: relative;
+            cursor: pointer;
+            outline: none;
+            margin-right: 0.5rem;
+            vertical-align: middle;
+        }
+        input[type="checkbox"]:checked {
+            background-color: #6ee7b7; /* Light green background when checked */
+            border-color: #6ee7b7;
+        }
+        input[type="checkbox"]:checked::after {
+            content: '✔';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #1a1a1a; /* Dark color for checkmark */
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Consent Screen -->
+    <div id="consentScreen">
+        <h1 class="text-2xl font-bold mb-4 text-center header-text">Privacy-First Data Donation</h1>
+        <p class="text-sm text-center mb-6 text-gray-400">Help improve social media research while maintaining your privacy</p>
+
+        <div class="card">
+            <h2 class="text-lg font-semibold mb-3 text-gray-200">Data Collection Consent</h2>
+            <div class="mb-3 flex items-center">
+                <label class="flex items-center cursor-pointer">
+                    <input type="checkbox" id="anonymousTrackingCheckbox" checked>
+                    <span class="text-gray-300">Anonymous Interaction Tracking</span>
+                </label>
+                <p class="text-xs text-gray-500 ml-7">Track scroll, hover, and click patterns on YouTube (anonymized)</p>
+            </div>
+            <div class="mb-3 flex items-center">
+                <label class="flex items-center cursor-not-allowed">
+                    <input type="checkbox" id="contentTypeCheckbox" disabled>
+                    <span class="text-gray-500">Content Type Classification (Coming Soon)</span>
+                </label>
+                <p class="text-xs text-gray-600 ml-7">Categorize videos and content types for research purposes</p>
+            </div>
+            <div class="flex items-center">
+                <label class="flex items-center cursor-not-allowed">
+                    <input type="checkbox" id="engagementDurationCheckbox" disabled>
+                    <span class="text-gray-500">Engagement Duration Tracking (Coming Soon)</span>
+                </label>
+                <p class="text-xs text-gray-600 ml-7">Measure time spent on different content types</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2 class="text-lg font-semibold mb-3 text-gray-200">Privacy Guarantee</h2>
+            <ul class="list-disc list-inside text-sm text-gray-400 space-y-1">
+                <li>All data is anonymized using UUID-based identification</li>
+                <li>No personally identifiable information is collected</li>
+                <li>Data is processed locally before transmission</li>
+                <li>You can export or delete your data at any time</li>
+            </ul>
+        </div>
+
+        <button id="startContributingBtn" class="btn-primary mt-4">Start Contributing to Research</button>
+    </div>
+
+    <!-- Data Donation Dashboard -->
+    <div id="dashboardScreen" class="hidden">
+        <div class="flex justify-between items-center mb-4">
+            <h1 class="text-2xl font-bold header-text">Data Donation Dashboard</h1>
+            <span id="trackingStatus" class="bg-green-600 text-white text-xs px-3 py-1 rounded-full">Tracking Active</span>
+        </div>
+
+        <div class="grid grid-cols-3 gap-3 mb-4">
+            <div class="card text-center">
+                <p class="text-2xl font-bold text-teal-400" id="researchPoints">0</p>
+                <p class="text-sm text-gray-400">Research Points</p>
+            </div>
+            <div class="card text-center">
+                <p class="text-2xl font-bold text-orange-400" id="dayStreak">0</p>
+                <p class="text-sm text-gray-400">Day Streak</p>
+            </div>
+            <div class="card text-center">
+                <p class="text-2xl font-bold text-purple-400" id="currentLevel">Supporter</p>
+                <p class="text-sm text-gray-400">Current Level</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2 class="text-lg font-semibold mb-3 text-gray-200">Achievement Badges</h2>
+            <div class="grid grid-cols-2 gap-3">
+                <div class="bg-gray-700 p-2 rounded-md flex items-center">
+                    <span class="text-green-400 mr-2">✔</span>
+                    <div>
+                        <p class="font-semibold text-sm">First Week</p>
+                        <p class="text-xs text-gray-400">Contributed for 7 days</p>
+                    </div>
+                </div>
+                <div class="bg-gray-700 p-2 rounded-md flex items-center">
+                    <span class="text-yellow-400 mr-2">🔒</span>
+                    <div>
+                        <p class="font-semibold text-sm">Privacy Champion</p>
+                        <p class="text-xs text-gray-400">Anonymized 100+ interactions</p>
+                    </div>
+                </div>
+                <div class="bg-gray-700 p-2 rounded-md flex items-center">
+                    <span class="text-blue-400 mr-2">🔒</span>
+                    <div>
+                        <p class="font-semibold text-sm">Research Supporter</p>
+                        <p class="text-xs text-gray-400">Contribute for 30 days</p>
+                    </div>
+                </div>
+                <div class="bg-gray-700 p-2 rounded-md flex items-center">
+                    <span class="text-red-400 mr-2">🔒</span>
+                    <div>
+                        <p class="font-semibold text-sm">Data Contributor</p>
+                        <p class="text-xs text-gray-400">Shared 1000+ data points</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2 class="text-lg font-semibold mb-3 text-gray-200">Your Anonymous Data</h2>
+            <button id="exportDataBtn" class="btn-secondary mb-3">Export Data</button>
+            <div class="text-sm space-y-1">
+                <p class="flex justify-between"><span>Interactions Anonymized:</span> <span id="interactionsAnonymized" class="font-semibold">0</span></p>
+                <p class="flex justify-between"><span>Videos Watched:</span> <span id="videosWatched" class="font-semibold">0</span></p>
+                <p class="flex justify-between"><span>Total Engagement Time:</span> <span id="totalEngagementTime" class="font-semibold">0s</span></p>
+                <p class="flex justify-between"><span>Session UUID:</span> <span id="sessionUuid" class="font-semibold text-xs break-all">N/A</span></p>
+                <p class="flex justify-between"><span>Data Retention:</span> <span class="font-semibold">90 days (placeholder)</span></p>
+                <p class="flex justify-between"><span>Last Upload:</span> <span class="font-semibold">N/A (placeholder)</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Data Donor",
+  "version": "1.0",
+  "description": "A privacy-first tool to donate anonymized YouTube interaction data for research.",
+  "permissions": [
+    "activeTab", 
+    "storage",   
+    "scripting"  
+  ],
+  "host_permissions": [
+    "*://www.youtube.com/*" 
+  ],
+  "action": {
+    "default_popup": "popup.html", 
+    "default_icon":"icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content_script.js"]       
+    }
+  ]
+}
