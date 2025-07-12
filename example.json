@@ -1,0 +1,256 @@
+{
+  "sessionId": "caf9b6ae-d2a2-4ca3-993e-9b08681d1d14",
+  "timestamp": "2025-07-12T12:35:52.173Z",
+  "overallMetrics": {
+    "videosWatched": 24,
+    "totalEngagementTime": 42945.76899999999,
+    "clicksRecorded": 181,
+    "scrollsRecorded": 404,
+    "interactionsAnonymized": 585
+  },
+  "videoSessions": {
+    "-zI4mrF2Pb4": {
+      "clicks": 7,
+      "engagementTime": 5252.09,
+      "firstSeen": "2025-07-12T10:18:24.014Z",
+      "lastUpdated": "2025-07-12T11:42:55.037Z",
+      "scrolls": 6,
+      "title": "Dp 25. Longest Common Subsequence | Top Down | Bottom-Up | Space Optimised | DP on Strings",
+      "url": "https://www.youtube.com/watch?v=-zI4mrF2Pb4&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz"
+    },
+    "0bHoB32fuj0": {
+      "clicks": 0,
+      "engagementTime": 1304.151,
+      "firstSeen": "2025-07-09T14:12:27.794Z",
+      "lastUpdated": "2025-07-12T09:43:30.016Z",
+      "scrolls": 111,
+      "title": "",
+      "url": "https://www.youtube.com/watch?v=0bHoB32fuj0&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&t=30s"
+    },
+    "6i_T5kkfv4A": {
+      "clicks": 1,
+      "engagementTime": 33.041,
+      "firstSeen": "2025-07-12T12:16:07.601Z",
+      "lastUpdated": "2025-07-12T12:35:41.241Z",
+      "scrolls": 6,
+      "title": "DP 29. Minimum Insertions to Make String Palindrome",
+      "url": "https://www.youtube.com/watch?v=6i_T5kkfv4A&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&t=25s"
+    },
+    "AE39gJYuRog": {
+      "clicks": 17,
+      "engagementTime": 843,
+      "firstSeen": "2025-07-10T04:30:08.291Z",
+      "lastUpdated": "2025-07-10T05:11:50.463Z",
+      "scrolls": 3,
+      "title": "Don't watch my A2Z DSA Course",
+      "url": "https://www.youtube.com/watch?v=AE39gJYuRog&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz"
+    },
+    "Bsv3FPUX_BA": {
+      "clicks": 0,
+      "engagementTime": 31.347,
+      "firstSeen": "2025-07-10T16:34:31.081Z",
+      "lastUpdated": "2025-07-10T16:34:47.524Z",
+      "scrolls": 8,
+      "title": "Don't watch my A2Z DSA Course",
+      "url": "https://www.youtube.com/watch?v=Bsv3FPUX_BA&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz"
+    },
+    "EVxTO5I0d7w": {
+      "clicks": 4,
+      "engagementTime": 312,
+      "firstSeen": "2025-07-12T07:23:20.794Z",
+      "lastUpdated": "2025-07-12T07:28:53.533Z",
+      "scrolls": 1,
+      "title": "DP 24. Rod Cutting Problem | 1D Array Space Optimised Approach",
+      "url": "https://www.youtube.com/watch?v=EVxTO5I0d7w"
+    },
+    "EgG3jsGoPvQ": {
+      "clicks": 9,
+      "engagementTime": 4304.063,
+      "firstSeen": "2025-07-09T15:22:44.935Z",
+      "lastUpdated": "2025-07-09T16:49:45.045Z",
+      "scrolls": 11,
+      "title": "DP 2. Climbing Stairs | Learn How to Write 1D Recurrence Relations",
+      "url": "https://www.youtube.com/watch?v=EgG3jsGoPvQ&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz"
+    },
+    "GS_OqZb2CWc": {
+      "clicks": 13,
+      "engagementTime": 4839.469,
+      "firstSeen": "2025-07-11T06:32:36.049Z",
+      "lastUpdated": "2025-07-11T08:26:26.537Z",
+      "scrolls": 24,
+      "title": "Don't watch my A2Z DSA Course",
+      "url": "https://www.youtube.com/watch?v=GS_OqZb2CWc&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz"
+    },
+    "GqOmJHQZivw": {
+      "clicks": 19,
+      "engagementTime": 760.42,
+      "firstSeen": "2025-07-11T13:56:52.023Z",
+      "lastUpdated": "2025-07-11T14:43:36.734Z",
+      "scrolls": 9,
+      "title": "Don't watch my A2Z DSA Course",
+      "url": "https://www.youtube.com/watch?v=GqOmJHQZivw&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz"
+    },
+    "GrMBfJNk_NY": {
+      "clicks": 5,
+      "engagementTime": 426,
+      "firstSeen": "2025-07-09T17:37:31.075Z",
+      "lastUpdated": "2025-07-09T18:08:42.898Z",
+      "scrolls": 1,
+      "title": "DP 3. Frog Jump | Dynamic Programming | Learn to write 1D DP",
+      "url": "https://www.youtube.com/watch?v=GrMBfJNk_NY&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz"
+    },
+    "N4TCoZ069jk": {
+      "clicks": 0,
+      "engagementTime": 13.625,
+      "firstSeen": "2025-07-09T12:56:56.853Z",
+      "lastUpdated": "2025-07-09T12:57:04.867Z",
+      "scrolls": 0,
+      "title": "#32 IS-LM model (Part -01) explained by Hardev Thakur",
+      "url": "https://www.youtube.com/watch?v=N4TCoZ069jk&list=PPSV"
+    },
+    "NPZn9jBrX8U": {
+      "clicks": 16,
+      "engagementTime": 1487.583,
+      "firstSeen": "2025-07-12T09:43:59.227Z",
+      "lastUpdated": "2025-07-12T10:18:23.283Z",
+      "scrolls": 9,
+      "title": "BS-13. Minimum days to make M bouquets | Binary Search",
+      "url": "https://www.youtube.com/watch?v=NPZn9jBrX8U&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz"
+    },
+    "OgvOZ6OrJoY": {
+      "clicks": 7,
+      "engagementTime": 387,
+      "firstSeen": "2025-07-11T17:00:18.998Z",
+      "lastUpdated": "2025-07-11T17:45:15.237Z",
+      "scrolls": 2,
+      "title": "DP 20. Minimum Coins | DP on Subsequences | Infinite Supplies Pattern",
+      "url": "https://www.youtube.com/watch?v=OgvOZ6OrJoY&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz"
+    },
+    "QGfn7JeXK54": {
+      "clicks": 19,
+      "engagementTime": 3504.596,
+      "firstSeen": "2025-07-10T16:35:09.338Z",
+      "lastUpdated": "2025-07-10T18:33:28.777Z",
+      "scrolls": 13,
+      "title": "Unknown Video",
+      "url": "https://www.youtube.com/watch?v=QGfn7JeXK54&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz"
+    },
+    "SrP-PiLSYC0": {
+      "clicks": 15,
+      "engagementTime": 545.91,
+      "firstSeen": "2025-07-10T13:33:52.473Z",
+      "lastUpdated": "2025-07-10T16:35:08.432Z",
+      "scrolls": 18,
+      "title": "BS-10. Finding Sqrt of a number using Binary Search",
+      "url": "https://www.youtube.com/watch?v=SrP-PiLSYC0&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz"
+    },
+    "TXAuxeYBTdg": {
+      "clicks": 0,
+      "engagementTime": 54.236000000000004,
+      "firstSeen": "2025-07-12T09:43:30.991Z",
+      "lastUpdated": "2025-07-12T09:43:59.007Z",
+      "scrolls": 20,
+      "title": "Don't watch my A2Z DSA Course",
+      "url": "https://www.youtube.com/watch?v=TXAuxeYBTdg&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz"
+    },
+    "WXsD0ZgxjRw": {
+      "clicks": 0,
+      "engagementTime": 100.062,
+      "firstSeen": "2025-07-09T12:53:53.714Z",
+      "lastUpdated": "2025-07-09T12:54:44.718Z",
+      "scrolls": 1,
+      "title": "",
+      "url": "https://www.youtube.com/watch?v=WXsD0ZgxjRw&list=PPSV"
+    },
+    "ZHyb-A2Mte4": {
+      "clicks": 4,
+      "engagementTime": 390,
+      "firstSeen": "2025-07-11T08:26:30.208Z",
+      "lastUpdated": "2025-07-11T09:26:51.419Z",
+      "scrolls": 1,
+      "title": "Dp 16. Partition A Set Into Two Subsets With Minimum Absolute Sum Difference | DP on Subsequences",
+      "url": "https://www.youtube.com/watch?v=ZHyb-A2Mte4&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz"
+    },
+    "_wP9mWNPL5w": {
+      "clicks": 2,
+      "engagementTime": 2395.949,
+      "firstSeen": "2025-07-10T18:33:31.405Z",
+      "lastUpdated": "2025-07-12T12:16:06.991Z",
+      "scrolls": 15,
+      "title": "DP 26. Print Longest Common Subsequence | Dp on Strings",
+      "url": "https://www.youtube.com/watch?v=_wP9mWNPL5w&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&t=25s"
+    },
+    "all1a_BVaNQ": {
+      "clicks": 0,
+      "engagementTime": 259.077,
+      "firstSeen": "2025-07-09T12:54:45.776Z",
+      "lastUpdated": "2025-07-09T12:56:55.792Z",
+      "scrolls": 5,
+      "title": "APIs for Beginners - How to use an API (Full Course / Tutorial)",
+      "url": "https://www.youtube.com/watch?v=all1a_BVaNQ&list=PPSV"
+    },
+    "fWX9xDmIzRI": {
+      "clicks": 7,
+      "engagementTime": 722,
+      "firstSeen": "2025-07-10T18:33:47.857Z",
+      "lastUpdated": "2025-07-10T18:50:56.087Z",
+      "scrolls": 1,
+      "title": "DP 27. Longest Common Substring | DP on Strings 🔥",
+      "url": "https://www.youtube.com/watch?v=fWX9xDmIzRI&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz"
+    },
+    "mLfjzJsN8us": {
+      "clicks": 1,
+      "engagementTime": 6.557,
+      "firstSeen": "2025-07-09T15:22:38.378Z",
+      "lastUpdated": "2025-07-09T15:22:44.737Z",
+      "scrolls": 1,
+      "title": "DP 1. Introduction to Dynamic Programming | Memoization | Tabulation | Space Optimization Techniques",
+      "url": "https://www.youtube.com/watch?v=mLfjzJsN8us&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz"
+    },
+    "mO8XpGoJwuo": {
+      "clicks": 9,
+      "engagementTime": 436,
+      "firstSeen": "2025-07-12T04:39:40.505Z",
+      "lastUpdated": "2025-07-12T05:57:44.864Z",
+      "scrolls": 3,
+      "title": "Don't watch my A2Z DSA Course",
+      "url": "https://www.youtube.com/watch?v=mO8XpGoJwuo&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz"
+    },
+    "myPeWb3Y68A": {
+      "clicks": 7,
+      "engagementTime": 8126.693,
+      "firstSeen": "2025-07-11T14:43:37.295Z",
+      "lastUpdated": "2025-07-11T17:00:16.878Z",
+      "scrolls": 6,
+      "title": "DP 19. 0/1 Knapsack | Recursion to Single Array Space Optimised Approach | DP on Subsequences",
+      "url": "https://www.youtube.com/watch?v=myPeWb3Y68A&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz"
+    },
+    "tyB0ztf0DNY": {
+      "clicks": 9,
+      "engagementTime": 5228.318,
+      "firstSeen": "2025-07-09T14:13:19.060Z",
+      "lastUpdated": "2025-07-09T15:22:29.808Z",
+      "scrolls": 42,
+      "title": "Don't watch my A2Z DSA Course",
+      "url": "https://www.youtube.com/watch?v=tyB0ztf0DNY&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz"
+    },
+    "wguWHzMzskY": {
+      "clicks": 2,
+      "engagementTime": 28,
+      "firstSeen": "2025-07-09T12:57:05.478Z",
+      "lastUpdated": "2025-07-09T12:57:36.718Z",
+      "scrolls": 0,
+      "title": "What is API and API integration? | API2Cart",
+      "url": "https://www.youtube.com/watch?v=wguWHzMzskY&list=PPSV&t=10s"
+    },
+    "xPBLEj41rFU": {
+      "clicks": 3,
+      "engagementTime": 1154.582,
+      "firstSeen": "2025-07-12T12:16:24.642Z",
+      "lastUpdated": "2025-07-12T12:35:34.933Z",
+      "scrolls": 4,
+      "title": "DP 28. Longest Palindromic Subsequence",
+      "url": "https://www.youtube.com/watch?v=xPBLEj41rFU&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz"
+    }
+  }
+}
